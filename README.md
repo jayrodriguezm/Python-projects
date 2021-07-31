@@ -9,3 +9,7 @@ Take a look at my projects:
 ## CaesarCipher
 
 This is the Caesar Cipher encoding algorithm, which is implemented by using string indexes manipulation and f-strings mainly
+
+## SecretAuction
+
+A Secret Auction script using a list of dictionaries. (This one is perfectly doable using a dictionary only, however, I did want to use both for future reference)
