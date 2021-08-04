@@ -6,6 +6,7 @@ print(logo)
 
 
 def caesar(input_text, input_shift, input_direction):
+    """Performs the Caesar Cipher algorithm for encryption and decryption"""
     result_text = ""
     for character in input_text:
         if character not in alphabet:
@@ -21,6 +22,7 @@ def caesar(input_text, input_shift, input_direction):
 
 
 def main_menu():
+    """Displays the main menu"""
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
