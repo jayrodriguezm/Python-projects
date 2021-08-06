@@ -41,6 +41,7 @@ def next_operation(previous_answer):
 
 
 def calculator():
+    """Recursive calculator function"""
     response = "y"
     number1 = float(input("What's the first number?: "))
     for operation in operations:
