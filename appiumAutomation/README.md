@@ -3,6 +3,7 @@
 ## Prerequisites
 
 - Install Python3 in your environment, using PyCharm would be my first recommendation,  but using other IDEs such as Visual Studio Code shouold also work
+- Install Appium Server and configure to execute at 127.0.0.1:4723
 - Install Android Studio and start an Android Emulated device using the AVD, alternatively you can use a physical device as long as you're able to provide its details to Appium, see the "Executing the tests section"
 - Checkout the following branch, you will need the path for the app-debug.apk
 
